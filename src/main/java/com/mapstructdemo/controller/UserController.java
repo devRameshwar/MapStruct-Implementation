@@ -29,6 +29,8 @@ public class UserController {
         return ResponseEntity.ok(service.registration(request));
     }
 
+
+
     @RequestMapping(value = "/get-wish",method = {RequestMethod.GET})
     public String getMessage(){
         return "Welcome Rameshwar";
